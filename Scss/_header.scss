@@ -1,0 +1,132 @@
+.top {
+    background-color: #fa6938;
+    color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+    &:hover {
+        background-color: purple;
+    }
+}
+
+#adbanner {
+    text-align: left;
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 5%;
+    li {
+        text-decoration: none;
+        padding-right: 2%;
+    }
+}
+
+#freeship {
+    text-decoration: none;
+    color: white;
+    background-color: #c7532c;
+    border-radius: 4px;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.nav {
+    display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    z-index: 2;
+    list-style-type: none;
+    text-decoration: none;
+    border-image: url(../assets/perforated-bottom@2x.png) 10 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 10px;
+    width: 100%;
+    li {
+        display: inline-flex;
+        list-style-type: none;
+    }
+}
+
+#logo {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tieoptions {
+    display: inline-flex;
+    text-align: center;
+    a {
+        display: inline-flex;
+        color: black;
+        list-style-type: none;
+        text-decoration: none;
+        padding-right: 7px;
+        padding-left: 7px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 35px;
+    }
+    ul {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        font-family: sans-serif;
+        font-style: bolder;
+        padding-bottom: 0;
+        text-decoration: thin;
+    }
+    li {
+        margin-right: 10px;
+    }
+    a:hover {
+        background-color: orange;
+        border-radius: 10px;
+    }
+}
+
+.signreg {
+    box-sizing: border-box;
+    width: 25%;
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+    }
+}
+
+#AA {
+    display: inline-flex;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    float: right;
+    a {
+        color: grey;
+    }
+}
+
+#BB {
+    display: inline-flex;
+    margin: 10px;
+    background-color: white;
+    float: right;
+}
+
+#search {
+    border: 2px solid grey;
+    padding: 2px;
+    margin-left: 5px;
+    line-height: 20px;
+    border: 5px solid lightgrey;
+    border-radius: 4px;
+}
+
+#cart {
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+}

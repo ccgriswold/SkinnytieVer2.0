@@ -1,0 +1,161 @@
+$primary-back-color: white;
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.rowthree {
+    background-color: #f4f4f4;
+    padding-bottom: 1.5%;
+    margin-top: -6px;
+    padding-top: 0;
+}
+
+.tieselection {
+    display: inline-flex;
+    position: relative;
+    align-content: top;
+    padding-left: 5%;
+    padding-right: 10%;
+    figure {
+        position: relative;
+        margin-left: .5%;
+        margin-right: 0;
+        align-content: top;
+        margin-top: 0;
+        text-decoration-style: none;
+    }
+}
+
+figcaption {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.tiename {
+    text-decoration: none;
+}
+
+.dressbetter {
+    text-align: center;
+    text-decoration: bold;
+    font-size: 50px;
+}
+
+.fourthrow {
+    display: inline-flex;
+    position: relative;
+    margin-top: 5%;
+    color: black;
+}
+
+.pictureitem {
+    width: 90%;
+}
+
+.displaybottombox {
+    position: absolute;
+    text-overflow: none;
+    top: 0;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    width: 24%;
+    text-align: right;
+}
+
+#fourthrowtext {
+    padding-bottom: 1.5%;
+    border-image: url(assets/hatch-light@2x.png) 5 round;
+    margin-top: 10%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 20px;
+    text-align: center;
+}
+
+.history {
+    text-align: center;
+    font-weight: thin;
+    font-size: 40px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-family: fantasy;
+}
+
+#story {
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    font-size: 25px;
+    color: teal;
+    text-decoration: none;
+}
+
+.fifthrow {
+    display: inline-flex;
+    align-content: center;
+    position: relative;
+    z-index: 2;
+    border-image: url(assets/perforated-bottom@2x.png) 10 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 10px;
+}
+
+.fifthtopbar {
+    padding: 2%;
+    width: 25%;
+    box-sizing: border-box;
+    p {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+}
+
+#weekpicktie,
+#styleguy {
+    width: 100%;
+}
+
+#weekpicktext {
+    color: blue;
+    text-decoration: none;
+}
+
+#connections ul {
+    list-style: none;
+}
+
+#CC {
+    border: none;
+    text-align: left;
+}
+
+#emailform {
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 2px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    border: 5px solid lightgrey;
+    border-radius: 4px;
+}
+
+#button {
+    display: block;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    background-color: #33a1ff;
+    color: white;
+    border-radius: 5px;
+}
+
+.knotess {
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,30 @@
+$font-stack: Helvetica,
+sans-serif;
+@media (max-width: 1200px) {
+    .tieselection {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .fifthtoprow {
+        flex: auto;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        flex-wrap: wrap;
+        width: auto;
+    }
+    figure {
+        flex-wrap: wrap;
+    }
+    .pictureitem {
+        flex-direction: column;
+    }
+    .fifthrow {
+        flex-wrap: wrap;
+    }
+}
